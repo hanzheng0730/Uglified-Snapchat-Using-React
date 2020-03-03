@@ -1,0 +1,48 @@
+.head-text{
+    margin-left: 10%;
+    color: rgb(255,255,255)
+}
+.log-out{
+    font-size: 70%;
+}
+.card-low{
+    margin-top : 2rem;
+    margin-left: 2rem
+}
+.button{
+    margin-left:8%;
+    margin-top: 20%;
+}
+.pic-low{
+    margin-top: 4%;
+}
+.friends{
+    font-size: large;
+    margin-left:25%;
+    margin-top: 25%;
+}
+@keyframes crownswing {
+    0% {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    100% {
+        width: 5rem;
+        height: 5rem;
+    }
+}
+
+.crown {
+    width: 4rem;
+    height: 4rem;
+    object-fit: fill;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: -3rem;
+    z-index: 10;
+    background: transparent;
+    animation: crownswing 750ms infinite alternate;
+}
+
