@@ -1,0 +1,23 @@
+.log-out {
+    font-size: 70%;
+}
+
+.low {
+    margin-top: 15%;
+}
+
+.button {
+    margin-top: 3%;
+    margin-right: 7%;
+    text-align: center;
+}
+
+.delay {
+    font-size: 7rem;
+    color: red;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
